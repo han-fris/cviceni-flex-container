@@ -1,4 +1,26 @@
 /*Tady piš svůj kód*/
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-bottom {
+  justify-content: flex-end;
+}
+
+.content {
+  display: flex;
+}
 
 /*-------------*/
 *,
@@ -8,6 +30,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
@@ -23,6 +46,7 @@ body {
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
 }
+
 
 a {
   display: block;
